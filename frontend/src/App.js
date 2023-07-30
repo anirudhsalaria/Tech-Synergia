@@ -1,9 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+import { useState } from "react";
 import ToDo from "./components/ToDo";
 
 function App() {
+
+  const [toDo, setToDo] = useState([]);
+
   return (
     <div className="App">
       <div className="container">
